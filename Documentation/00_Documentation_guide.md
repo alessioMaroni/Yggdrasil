@@ -4,11 +4,11 @@
 * [ **01** ] [Project Overview](01_overview.md) 'General Project View.'
 
 ## Allocator
-* [ **01** ] [Buddy Allocator](01_allocator_buddy.md) 'Documentation to the **Buddy Allocator**.'
+* [ **01** ] [Buddy Allocator](memory/01_allocator_buddy.md) 'Documentation to the **Buddy Allocator**.'
 
 ## I/O
 ### Output
-* [**01**] [Fonts](./01_io_fonts.md) 'Fonts **gestion and declaration.**'
+* [**01**] [Fonts](output/./01_io_fonts.md) 'Fonts **gestion and declaration.**'
 
-## Ada
-* [**01**] [Memory](./ada/memory.md) 'Usage of **ada inside the Buddy Allocator**'
+## Sync
+* [**01**] [Mutex](sync/01_mutex.md) 'Mutex'
