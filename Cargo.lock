@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "ToPluto-kernel"
+name = "MARTCS-kernel"
 version = "0.7.4"
 dependencies = [
  "uefi",
