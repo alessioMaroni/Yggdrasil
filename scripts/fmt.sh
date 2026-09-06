@@ -11,11 +11,11 @@ else
     
     FMT_HASH=$(git rev-parse HEAD)
     
-    echo "" >> .git-blame-ignore-revs
-    echo "# rustfmt run" >> .git-blame-ignore-revs
-    echo "$FMT_HASH" >> .git-blame-ignore-revs
+    echo "" >> ../.git-blame-ignore-revs
+    echo "# rustfmt run" >> ../.git-blame-ignore-revs
+    echo "$FMT_HASH" >> ../.git-blame-ignore-revs
     
-    git add .git-blame-ignore-revs
+    git add ../.git-blame-ignore-revs
     git commit --amend --no-edit
     
     echo "Formatting and ignore-revs completed in a single commit!"

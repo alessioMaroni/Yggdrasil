@@ -18,7 +18,7 @@ repository = "https://github.com/alessioMaroni/ToPluto"
 
 [package]
 name = "ToPluto-kernel"
-version = "0.7.4"
+version = "0.7.5"
 authors.workspace = true
 license.workspace = true
 repository.workspace = true
